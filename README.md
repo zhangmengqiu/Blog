@@ -1,10 +1,8 @@
-title: 搭建这个博客
-author: Tao Feng
-tags:
-  - Article Archive
-categories: []
-date: 2016-12-04 22:03:00
----
+#### title: 搭建这个博客
+#### author: Tao Feng
+#### tags: Article Archive
+#### date: 2016-12-04 22:03:00
+
 ### 简单介绍
 
 这个博客是基于[hexo](https://hexo.io)的博客框架，使用了一个腾讯前端开发的大牛[Litten](https://litten.me)开源的hexo主题[yilia](https://github.com/litten/hexo-theme-yilia)，详细的安装过程分别在hexo和yilia的首页上有详细的介绍，可以自行参考。hexo使用的是[Node.js](https://nodejs.org/en/)，是使用JavaScript编写的服务端框架，打开它的首页就能看到相应系统的安装包，另外还需要有[npm](https://www.npmjs.com)，是Node.js的软件仓库，也是包管理工具，用它安装Node.js的程序很方便。npm的安装也可以参考hexo在线文档提供的指导。
@@ -107,7 +105,7 @@ hexo deploy
 ```
 现在，就可以访问https://[username].github.io 查看博客的效果了。
 
-PS：第一次写，所以可能有很多细节的地方没有写上来，而且很多细节写上来反而让读者困惑，所以自己实际部署时还是要多上网搜搜相关的指导，不过都以官网文档为主。有遇到不能解决的问题也可以通过邮件的形式联系我，希望这篇文章能够帮助你搭建一个高大上的个人博客。
+PS：可能有很多细节的地方没有写上来，而且很多细节写上来反而让读者困惑，所以自己实际部署时还是要多上网搜搜相关的指导，不过都以官网文档为主。有遇到不能解决的问题也可以通过邮件的形式联系我，希望能够帮助你搭建一个高大上的个人博客。
 			
 
 
