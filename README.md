@@ -56,7 +56,7 @@ cd ~/Myblog
 #从git下载[pull]
 git clone https://github.com/litten/hexo-theme-yilia.git themes/yilia
 ```
-相应的在yilia的文件夹下也有一个_config.yml文件，是对yilia主题具体的配置，相关配置参考[_config.yml.yilia](Myblog/_config.yml.yilia)或者yilia的github的[README.md](https://github.com/litten/hexo-theme-yilia)。相应的全局的_config.yml也要配置，涉及到theme,deploy,etc相关信息，到yilia上拿一个模板改改就好。
+相应的在yilia的文件夹下也有一个_config.yml文件，是对yilia主题具体的配置，相关配置参考[_config.yml.yilia](_config.yml.yilia)或者yilia的github的[README.md](https://github.com/litten/hexo-theme-yilia)。相应的全局的_config.yml也要配置，涉及到theme,deploy,etc相关信息，到yilia上拿一个模板改改就好。
 
 写博客用什么工具呢，在github上也有一个针对hexo开发的网页版带预览的Markdown格式文件编辑工具，叫[hexo-admin](https://github.com/jaredly/hexo-admin),虽然用着有些小bugs，但是寥胜于无吧。安装也很简单：
 ```bash
