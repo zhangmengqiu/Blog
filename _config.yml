@@ -114,4 +114,5 @@ feed:
     type: atom
     path: atom.xml
     limit: 100
-
+admin:
+  deployCommand: './hexo-deploy.sh'
