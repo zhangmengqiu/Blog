@@ -2,12 +2,11 @@
 
 menu:
   主页: /
-  文章归档: /tags/Article-Archive
-  机器学习: /tags/Machine-Learnning
-  数据挖掘: /tags/Data-Mining
+  随手记: /tags/Note
+  研究历程: /tags/Research-Path
   网络通信: /tags/Computer-Network
-  黑客攻防: /tags/Hacking
-  实用工具: /tags/Useful-Tools
+  信息安全: /tags/Information-Security
+  实用工具: /tags/Useful-Tool
   Github: /tags/Github-Project
   
 
@@ -18,7 +17,7 @@ subnav:
   #rss: "#"
   #zhihu: "#"
   #douban: "#"
-  mail: "mailto:ft.nudt@qq.com"
+  mail: "mailto:admin@taofeng.me"
   #facebook: "#"
   #google: "#"
   #twitter: "#"
@@ -86,4 +85,4 @@ friends:
   Zhihu: https://zhihu.com/
 
 
-aboutme: 很惭愧<br><br>只做了一点微小的工作<br>谢谢大家
+aboutme: <br><br>免责声明：本博客属于原创内容，如转载请注明出处。若内容侵害了您的权益，请及时联系。<br>谢谢！

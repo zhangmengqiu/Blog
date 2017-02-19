@@ -4,11 +4,11 @@
 
 # Site
 title: Tao's Blog
-subtitle: 
-description: 
-author: Tao Feng
+subtitle: Live to Write
+description: Post-Graduate Student
+author: Feng Tao
 email: ft.nudt@qq.com
-keywords: "Article Archive, Machine Learning, Data Mining, Hacking,Useful Tools, Github Project, Computer Network"
+keywords: "Note, Research Path, Information Security,Useful Tool, Github Project, Computer Network"
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
