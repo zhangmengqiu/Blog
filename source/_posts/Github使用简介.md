@@ -7,13 +7,13 @@ categories: []
 date: 2016-12-04 23:32:00
 ---
 ### Github是什么
-作为一名程序猿还是一名程序媛，[Git](https://github.com)肯定是你不可或缺的版本控制工具（VCS），即便可能你不想用，但是好多开源的代码都放在Github或自建的git服务器上，你要下载下来可能就需要用到它了。Github则是全球程序员和开源项目的聚集地。Git作为版本控制的工具主要有一下几个好处。
+作为一名程序猿还是一名程序媛，[`Git`](https://github.com)肯定是你不可或缺的版本控制工具（VCS），即便可能你不想用，但是好多开源的代码都放在`Github`或自建的`git`服务器上，你要下载下来可能就需要用到它了。`Github`则是全球程序员和开源项目的聚集地。`Git`作为版本控制的工具主要有一下几个好处。
 
 第一，方便分工合作。一个大型的软件肯定是要大量的人力累积出来的，一个人的力量很有限，没有合作就没有现在软件的发展。那么如何使得所有人都有一个所有代码的副本，同时可以获得最新的代码和提交最新的代码呢？而且代码一旦多起来，More is Different！那么真的连“亲妈”都不认识。所以每个人都只需要专注于自己的那一个模块。
 
-第二，方便管理。有了Git之后，即便有人不小心误删了某些代码，还能回滚回去。即便有机器Down掉了也不会有灾难性的影响。另外，Git可以将不同的开发组分到不同的Branch进行开发，每个组只有相应Branch的提交权限，这样管理更有效。
+第二，方便管理。有了`Git`之后，即便有人不小心误删了某些代码，还能回滚回去。即便有机器Down掉了也不会有灾难性的影响。另外，`Git`可以将不同的开发组分到不同的`Branch`进行开发，每个组只有相应`Branch`的提交权限，这样管理更有效。
 
-第三，方便开发。Git将项目分为不同的Branch，将新特性放在单独的一个Branch下开发，当功能测试稳定后再Merge到主分支，这样就是一个迭代的开发流程，提高开发效率。
+第三，方便开发。`Git`将项目分为不同的`Branch`，将新特性放在单独的一个`Branch`下开发，当功能测试稳定后再`Merge`到主分支，这样就是一个迭代的开发流程，提高开发效率。
 
 扯了这么多，来点干货。
 
@@ -21,19 +21,19 @@ date: 2016-12-04 23:32:00
 
 ### Git基本命令
 
-初建一个工程，$PROJECTS_ROOT为你所有项目存放的目录，代表一个变量
+初建一个工程，`$PROJECTS_ROOT`为你所有项目存放的目录，代表一个变量
 ```bash
 cd $PROJECTS_ROOT
 mkdir project_name
 cd project_name
 git init
 ```
-git init这个命令其实在项目下新建了一个.git目录，目录下有Git的配置和存档信息。另外可以直接从Git服务器上将一个开源项目clone下来
+`git init`这个命令其实在项目下新建了一个`.git`目录，目录下有`Git`的配置和存档信息。另外可以直接从`Git`服务器上将一个开源项目`clone`下来
 ```bash
 cd $PROJECTS_ROOT
 git clone https://github.com/osgee/c9ssh.git
 ```
-这里注意，结尾必须是[.git]，不然虽然可以clone下来项目，但是当提交是会报错，得修改.git/config文件中的[remote "origin"]项下的url值，也可以通过git remote set-url origin 修改。git clone曲折的做法可以是
+这里注意，结尾必须是`[.git]`，不然虽然可以`clone`下来项目，但是当提交是会报错，得修改`.git/config`文件中的`[remote "origin"]`项下的`url`值，也可以通过`git remote set-url origin`修改。`git clone`曲折的做法可以是
 ```bash
 cd $PROJECTS_ROOT
 mkdir c9ssh
@@ -42,11 +42,11 @@ git init
 git remote add origin https://github.com/osgee/c9ssh.git
 git pull origin master
 ```
-这里的git remote add origin是添加源Git仓库的地址，origin是该源的名称，可以自己改。不过只有一个源仓库时，公认的命名方法是origin，但要添加多个源时，每个就需要有单独的名称。git pull origin master的意思是从叫origin的源仓库中提取master分支的数据。
+这里的`git remote add origin`是添加源`Git`仓库的地址，`origin`是该源的名称，可以自己改。不过只有一个源仓库时，公认的命名方法是`origin`，但要添加多个源时，每个就需要有单独的名称。`git pull origin master`的意思是从叫`origin`的源仓库中提取`master`分支的数据。
 
-怎么进行第一个提交呢？需要认识到Git将文件划分的几个状态，以及不同的命令对应得文件状态的改变
+怎么进行第一个提交呢？需要认识到`Git`将文件划分的几个状态，以及不同的命令对应得文件状态的改变
 ![git file status](/assets/blogImg/git_status.png)
-下面通过命令进行第一次提交，假设你在Github上已经注册的用户名为[username]，新建了一个项目名为[project_name]，那么根据Github的命名规则，这个项目的git仓库的地址为https://github.com/username/project_name.git . 在电脑上的命令如下
+下面通过命令进行第一次提交，假设你在`Github`上已经注册的用户名为`[username]`，新建了一个项目名为`[project_name]`，那么根据`Github`的命名规则，这个项目的`git`仓库的地址为`https://github.com/username/project_name.git` . 在电脑上的命令如下
 ```bash
 cd $PROJECTS_ROOT
 git clone https://github.com/username/project_name.git
@@ -57,7 +57,7 @@ git commit -m "first commit"
 git push origin master
 ```
 
-下面是高级一点的命令，包括搭建本地的git仓库，对远端仓库的修改等。这也是我github上分享的一个项目，翻译不过来，将就着看吧
+下面是高级一点的命令，包括搭建本地的`git`仓库，对远端仓库的修改等。这也是我`github`上分享的一个项目，翻译不过来，将就着看吧
 
 ### Git
 
