@@ -1,7 +1,7 @@
 title: Hello World
-author: Tao Feng
+author: Feng Tao
 tags:
-  - Article Archive
+  - Note
 categories: []
 date: 2016-12-04 04:54:00
 ---

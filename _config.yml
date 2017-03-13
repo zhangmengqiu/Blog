@@ -4,10 +4,10 @@
 
 # Site
 title: Tao's Blog
-subtitle: Live to Write
+subtitle:
 description: Post-Graduate Student
 author: Feng Tao
-email: ft.nudt@qq.com
+email: admin@taofeng.me
 keywords: "Note, Research Path, Information Security,Useful Tool, Github Project, Computer Network"
 
 # URL
@@ -33,7 +33,7 @@ external_link: true # Open external links in new tab
 filename_case: 0
 render_drafts: false
 post_asset_folder: false
-relative_link: false
+relative_link: true
 highlight:                                                                                                                                                                                                   
   enable: true                                                                                                                                                                                               
   auto_detect: true                                                                                                                                                                                          
@@ -41,7 +41,7 @@ highlight:
   tab_replace: ''
 
 # Category & Tag
-default_category: uncategorized
+default_category: Note
 category_map:
 tag_map:
 
@@ -82,10 +82,10 @@ disqus_shortname: taofeng
 # Extensions
 ## Plugins: https://github.com/hexojs/hexo/wiki/Plugins
 ## Themes: https://github.com/hexojs/hexo/wiki/Themes
-# plugins:
-#  - hexo-generator-feed
-#  - hexo-generator-baidu-sitemap
-#  - hexo-generator-sitemap
+plugins:
+ # - hexo-generator-feed
+ # - hexo-generator-baidu-sitemap
+ # - hexo-generator-sitemap
 
 theme: yilia
 exclude_generator:
@@ -106,15 +106,13 @@ deploy:
 #   root: /usr/local/var/www/
 #   port: 22
 
-
-sitemap:
-    path: sitemap.xml
-baidusitemap:
-    path: baidusitemap.xm
-
-feed:
-    type: atom
-    path: atom.xml
-    limit: 100
+# sitemap:
+#     path: sitemap.xml
+# baidusitemap:
+#     path: baidusitemap.xm
+# feed:
+#     type: atom
+#     path: atom.xml
+#     limit: 100
 admin:
   deployCommand: './hexo-deploy.sh'

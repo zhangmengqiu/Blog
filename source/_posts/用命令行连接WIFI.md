@@ -1,13 +1,18 @@
 title: 用命令行连接WIFI
-author: Tao Feng
+author: Feng Tao
 tags:
-  - Useful Tools
   - Computer Network
+  - Useful Tool
 categories: []
 date: 2016-12-14 09:49:00
 ---
 ### wpa_supplicant
 这里使用的命令行工具是wpa_supplicant，可以用来在命令行界面连接WIFI。
+
+使用iwlist扫描无线网络
+```shell
+iwlist scan
+```
 
 ### configure
 

@@ -1,8 +1,8 @@
 title: MySQL命令
-author: Tao Feng
+author: Feng Tao
 tags:
-  - Hacking
   - Research Path
+  - Information Security
 categories: []
 date: 2016-12-14 09:25:00
 ---

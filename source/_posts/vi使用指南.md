@@ -1,8 +1,8 @@
 title: vi使用指南
 author: Tao Feng
 tags:
-  - Useful Tools
-  - Hacking
+  - Useful Tool
+  - Information Security
 categories: []
 date: 2016-12-14 10:00:00
 ---

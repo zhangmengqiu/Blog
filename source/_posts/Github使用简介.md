@@ -1,9 +1,9 @@
 title: Git使用简介
-author: Tao Feng
+author: Feng Tao
 tags:
-  - Useful Tools
   - Github Project
   - Research Path
+  - Useful Tool
 categories: []
 date: 2016-12-04 23:32:00
 ---
