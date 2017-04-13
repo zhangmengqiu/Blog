@@ -3,11 +3,11 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Mengqiu's Blog
+title: 梦秋的博客
 subtitle:
 description: Post-Graduate Student
 author: 张梦秋
-email: 421223850@qq.com
+email: mail@zhmq.me
 keywords: "Note, Research，Travel"
 
 # URL
@@ -94,9 +94,10 @@ exclude_generator:
 
 # Deployment
 ## Docs: http://hexo.io/docs/deployment.html
+# repository: git@github.com:zhangmengqiu/zhangmengqiu.github.io.git
 deploy:
  type: git
- repository: git@github.com:zhangmengqiu/zhangmengqiu.github.io.git
+ repository: https://github.com/zhangmengqiu/zhangmengqiu.github.io.git
  branch: master
 
 # rsync
